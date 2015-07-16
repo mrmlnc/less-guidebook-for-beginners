@@ -48,4 +48,4 @@ Brunch, а также решением домашних заданий буде�
 
 [www.canonium.com](http://www.canonium.com/)
 
-[Репозиторий на GitHub](https://github.com/mrmlnc/gitbook-less-guidebook-for-beginners)
+[Репозиторий на GitHub](https://github.com/mrmlnc/less-guidebook-for-beginners)
