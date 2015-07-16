@@ -35,6 +35,6 @@
    * [Манипуляции с цветами](chapter_4/manipulation-with-colors.md)
    * [Домашнее задание](chapter_4/homework.md)
 * [Глава 5. Инструкции (операторы)](chapter_5/intro.md)
-   * [Условный оператор](chapter_5/if.md)
+   * [Условные конструкции (защита примесей)](chapter_5/if.md)
    * [Циклические конструкции](chapter_5/loops.md)
    * [Домашнее задание](chapter_5/homework.md)
