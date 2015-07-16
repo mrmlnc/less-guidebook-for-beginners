@@ -1,9 +1,9 @@
 # Summary
 
 * [Введение](README.md)
-* [Предисловие](introduction.md)
-* [Благодарности](thanks.md)
-* [Целевая аудитория](audience.md)
+* [Предисловие](chapter_0/introduction.md)
+* [Благодарности](chapter_0/thanks.md)
+* [Целевая аудитория](chapter_0/audience.md)
 * [Глава 1. Основы](chapter_1/intro.md)
    * [Препроцессоры](chapter_1/preprocessors.md)
    * [CSS-препроцессоры](chapter_1/css-reprocessors.md)
