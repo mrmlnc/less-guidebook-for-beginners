@@ -27,11 +27,11 @@
    * [Работа с набором правил](chapter_3/working-with-rulesets.md)
    * [Домашнее задание](chapter_3/homework.md)
 * [Глава 4. Операции со свойствами и встроенные функции](chapter_4/intro.md)
-   * Слияние свойств
-   * Строки и списки
-   * Работа с изображениями
-   * Работа с типами данных и единицами измерения
-   * Математические функции
-   * Манипуляции с цветами
-   * Домашнее задание
+   * [Слияние свойств](chapter_4/merge-properties.md)
+   * [Строки и списки](chapter_4/strings-and-lists.md)
+   * [Работа с изображениями](chapter_4/working-with-images.md)
+   * [Работа с типами данных и единицами измерения](chapter_4/working-with-data-types-and-units.md)
+   * [Математические функции](chapter_4/math-functions.md)
+   * [Манипуляции с цветами](chapter_4/manipulation-with-colors.md)
+   * [Домашнее задание](chapter_4/homework.md)
 
