@@ -1,0 +1,8 @@
+.mixin(@a, @b, @c:1) {
+  @js: ~`function(args){return args}(function(){var args='@{arguments}';return args.replace(/^\[|\]$/g,'')}())`;
+  content: @js;
+}
+
+.test-js {
+  .mixin(3, 123);
+}
