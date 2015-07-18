@@ -38,3 +38,4 @@
    * [Условные конструкции (защита примесей)](chapter_5/if.md)
    * [Циклические конструкции](chapter_5/loops.md)
    * [Домашнее задание](chapter_5/homework.md)
+* [Глава 6. JavaScript в Less](chapter_6/intro.md)
