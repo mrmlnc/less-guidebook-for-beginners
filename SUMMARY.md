@@ -9,6 +9,7 @@
    * [CSS-препроцессоры](chapter_1/css-reprocessors.md)
    * [Грань между Less и CSS](chapter_1/verge-less-css.md)
    * [Компиляция и отладка](chapter_1/compiling-and-debugging.md)
+   * [Использование плагинов](chapter_1/usage-plugins.md)
 * [Глава 2. Работа с селекторами, медиа-запросами и файлами](chapter_2/intro.md)
    * [Комментарии](chapter_2/comments.md)
    * [Вложенные правила](chapter_2/nested-rules.md)
