@@ -74,11 +74,11 @@
 ```html
 <article class="article-card">
   <header class="head">
-		<h1 class="title">
-			<a href="#ignoreClick">Заголовок</a>
-		</h1>
-	</header>
-	<div class="content">
+    <h1 class="title">
+      <a href="#ignoreClick">Заголовок</a>
+    </h1>
+  </header>
+  <div class="content">
     <p>Текст карточки</p>
   </div>
   <footer class="footer">
