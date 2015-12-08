@@ -9,6 +9,7 @@
    * [CSS-препроцессоры](chapter_1/css-reprocessors.md)
    * [Грань между Less и CSS](chapter_1/verge-less-css.md)
    * [Компиляция и отладка](chapter_1/compiling-and-debugging.md)
+   * [Использование плагинов](chapter_1/usage-plugins.md)
 * [Глава 2. Работа с селекторами, медиа-запросами и файлами](chapter_2/intro.md)
    * [Комментарии](chapter_2/comments.md)
    * [Вложенные правила](chapter_2/nested-rules.md)
@@ -39,3 +40,5 @@
    * [Циклические конструкции](chapter_5/loops.md)
    * [Домашнее задание](chapter_5/homework.md)
 * [Глава 6. JavaScript в Less](chapter_6/intro.md)
+   * [Обзор возможностей](chapter_6/features-overview.md)
+   * [Работа с переменными и примесями](chapter_6/working-with-variables-and-mixins.md)
