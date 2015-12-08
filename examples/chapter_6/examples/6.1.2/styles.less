@@ -1,5 +1,6 @@
 .mixin(...) {
-  @js: ~`(function(args){return args})('@{arguments}')`;
+  @js: ~`(function(args){ return args; })('@{arguments}')`;
+
   content: @js;
 }
 

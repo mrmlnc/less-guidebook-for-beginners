@@ -3,4 +3,4 @@
 })((function() {
   var args = '@{arguments}';
   return args.replace(/^\[|\]$/g, '')
-})())
+})());

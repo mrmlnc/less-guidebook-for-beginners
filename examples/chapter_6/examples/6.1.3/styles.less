@@ -1,5 +1,6 @@
-.mixin(@a, @b, @c:1) {
+.mixin(...) {
   @js: ~`function(args){return args}(function(){var args='@{arguments}';return args.replace(/^\[|\]$/g,'')}())`;
+
   content: @js;
 }
 
