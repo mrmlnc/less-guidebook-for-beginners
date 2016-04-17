@@ -1,32 +1,13 @@
-@column-name: col;
-@column-count: 4;
-@column-prefix: xs, sm, md, lg;
-
-// Генератор селекторов
-.generate-class(@indexCount, @indexPrefix: 1) when (@indexPrefix =< length(@column-prefix)) {
-
-  // Получаем элемент списка
-  @prefix: extract(@column-prefix, @indexPrefix);
-
-  // Формируем селектор
-  .@{column-name}-@{prefix}-@{indexCount} {
-    width: @indexCount * (100% / @column-count);
+.bg(@path, @width, @height) {
+  background-image: url(@path);
+  
+  @media only screen and (min-resolution: (1.5 * 96dpi)), only screen and (min-resolution: (1.5 * 1dppx)) {
+    @retina: replace(@path, "(\.[0-9a-z]+)$", "@2x$1", "i");
+    background-image: url(@retina);
+    background-size: @width @height;
   }
-
-  // Порождаем следующую итерацию
-  .generate-class(@indexCount, @indexPrefix + 1);
 }
 
-// Генератор сетки
-.make-grid(@indexCount: 1) when (@indexCount =< @column-count) {
-
-  // Вызываем генератор селекторов
-  .generate-class(@indexCount);
-
-  // Порождаем следующую итерацию
-  .make-grid(@indexCount + 1);
-
+.block {
+  .bg("../images/header-bg.png", 18px, 18px);
 }
-
-// Вызываем генератор сетки
-.make-grid();

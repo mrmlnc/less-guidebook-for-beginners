@@ -33,6 +33,8 @@
 
 ---
 
-[www.canonium.com](http://www.canonium.com/)
+[www.canonium.com](https://www.canonium.com/)
+
+[Анонс книги на Canonium](https://www.canonium.com/articles/less-guidebook-for-beginners)
 
 [Репозиторий на GitHub](https://github.com/mrmlnc/less-guidebook-for-beginners)
