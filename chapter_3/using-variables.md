@@ -112,7 +112,7 @@
 
 Если попытаться скомпилировать этот блок кода, компилятор будет нарываться на ошибку и любезно сообщать её нам:
 
-```                                             
+```shell
 $ lessc _styles.less > styles.css
 
 ParseError: Unrecognised input in _styles.less on li ne 24, column 13:
@@ -184,7 +184,7 @@ body {
 
 При компиляции возникнет ошибка из-за того, что переменная `@block-font-size` локальная и не может быть использована вне селектора `.block`. При этом глобальные переменные никаких ошибок породить не могут, так как они доступны во всем коде.
 
-```
+```shell
 $ lessc _styles.less > styles.css
 
 NameError: variable @block-font-size is undefined in _styles.less on line 20, column 14:
