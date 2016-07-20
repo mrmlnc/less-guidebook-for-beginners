@@ -91,7 +91,7 @@ body {
 <head>
   ...
   <!-- Scripts -->
-    <script>
+  <script>
     less = {
       env: 'development'
     };
