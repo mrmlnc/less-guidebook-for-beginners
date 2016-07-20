@@ -19,7 +19,7 @@
 
 ```less
 @russia-city-odintsovo: Одинцово;
-@english-city-odintsovo: Odintsovo; 
+@english-city-odintsovo: Odintsovo;
 @russia-hello: "Привет, @{russia-city-odintsovo}!";
 @english-hello: "Hello, @{english-city-odintsovo}!";
 ```

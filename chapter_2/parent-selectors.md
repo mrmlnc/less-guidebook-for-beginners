@@ -20,7 +20,7 @@
 a {
   color: #777;
   text-decoration: none;
-  
+
   &:hover {
     color: #a31515;
   }
@@ -48,7 +48,7 @@ a:hover {
 ```less
 .class-1 {
   background-color: #fff;
-  
+
   &.class-2 {
     color: #000;
   }
@@ -97,7 +97,7 @@ a:hover {
 .item-card {
   background-color: #f5f5f5;
   border-image: url("images/bg-image.png") 30 round round;
-  
+
   .ie7 & {
     border: 1px solid #a31515;
   }
@@ -167,12 +167,12 @@ a:hover {
 .button {
   background-color: #ddd;
   color: #000;
-  
+
   &-add {
     background-color: green;
     color: #fff;
   }
-  
+
   &-remove {
     background-color: red;
     color: #fff;
@@ -186,12 +186,12 @@ a:hover {
 .button {
   background-color: #ddd;
   color: #000;
-  
+
   &-add,
   &-remove {
     color: #fff;
   }
-  
+
   &-add { background-color: green; }
   &-remove { background-color: red; }
 }
@@ -259,7 +259,7 @@ a:hover {
 ```less
 ul, li {
   border-top: 2px dotted #366;
-  
+
   & + & {
     border-top: 0;
   }

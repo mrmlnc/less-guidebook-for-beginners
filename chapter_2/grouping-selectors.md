@@ -167,7 +167,7 @@ Less предлагает эквивалентное решение, но в т�
 ```less
 .global-header {
   background-color: #fff;
-  
+
   .area {
     text-align: center;
   }
@@ -249,7 +249,7 @@ Less поддерживает группировку с конкретным с�
 .item {
   background-color: #fff;
   border: 1px solid #ddd;
-  
+
   .header {
     padding: 25px;
   }
@@ -262,7 +262,7 @@ Less поддерживает группировку с конкретным с�
 .item {
   background-color: #fff;
   border: 1px solid #ddd;
-  
+
   .header {
     padding: 25px;
   }

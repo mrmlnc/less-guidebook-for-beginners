@@ -102,7 +102,7 @@
 .one {
   @media (min-width: 768px) {
     background-color: #f5f5f5;
-    
+
     .two {
       @media (max-width: 992px) {
         color: #000;
@@ -150,7 +150,7 @@
     &:extend(.three, .two);
     background-color: #fff;
   }
-  
+
   @media (min-width: 992px) {
     .two {
       &:extend(.one);
@@ -192,7 +192,7 @@
   .one {
     background-color: #fff;
   }
-  
+
   @media (min-width: 992px) {
     .two {
       color: #777;

@@ -123,7 +123,7 @@
 ```less
 .mixin(@color: #333, @bg: #f5f5f5) {
   color: @color;
-  
+
   .nested {
     background-color: @bg;
   }

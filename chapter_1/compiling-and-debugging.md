@@ -240,7 +240,7 @@ lessc --h
 
 В этом примере представлен препроцессорный и скомпилированный файлы. Обратите внимание лишь на отличающееся количество строк, работу препроцессора и её результат на выходе.
 
-**Файл препроцессора:** 
+**Файл препроцессора:**
 
 ```less
 // Variables
@@ -251,11 +251,11 @@ lessc --h
   position: relative;
   background-color: @header-background;
   color: @header-color;
-  
+
   h1 {
     font-size: 44px;
     line-height: 50px;
-    
+
     small {
       font-size: 24px;
       line-height: 36px;
