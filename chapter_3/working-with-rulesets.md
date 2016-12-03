@@ -9,7 +9,7 @@
 ```less
 @element: {
   color: #777;
-  
+
   &.active {
     color: #000;
   }
@@ -114,7 +114,7 @@ mySandwich('котлету', 'сыр', function() {
 @variable: global;
 
 @detached-ruleset: {
-  variable: @variable; 
+  variable: @variable;
 };
 
 selector {
@@ -137,7 +137,7 @@ selector {
 
 ```less
 @detached-ruleset: {
-  variable: @variable; 
+  variable: @variable;
 };
 
 selector {

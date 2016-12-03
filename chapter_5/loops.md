@@ -178,7 +178,7 @@ var makeGrid = function(o) {
       selector: generateSelector(o, index)
     });
   }
-  
+
   return consoleReturn;
 };
 ```
@@ -227,7 +227,7 @@ var generateSelector = function(o, indexCount) {
       width: width
     });
   }
-  
+
   return selectors;
 };
 ```
